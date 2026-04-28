@@ -354,9 +354,13 @@ section h2::after {
         font-size: 2em;
     }
 
-    .main-nav ul {
+    .nav-menu {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .nav-menu li {
+        margin: 5px 0;
     }
 
     .hero-section {
@@ -411,8 +415,13 @@ section h2::after {
         font-size: 1.8em;
     }
 
-    .main-nav ul li {
-        margin: 5px 10px;
+    .nav-menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .nav-menu li {
+        margin: 2px 0;
     }
 
     .hero-section {
